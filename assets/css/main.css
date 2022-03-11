@@ -2184,6 +2184,23 @@ a.icon.alt:active:before {
 	background-color: #37a6cb;
 }
 
+
+/* Openings */
+details{
+	width: inherit;
+	
+}
+
+details > .summary {
+
+	width: inherit;
+}
+
+details > .p {
+width: inherit;
+
+}
+
 /* Image */
 .video{
 		border: 0;
