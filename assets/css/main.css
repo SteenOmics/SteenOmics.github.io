@@ -312,9 +312,7 @@ hr.major {
 
 .align-center-under {
 	text-align: center;
-	text-decoration: underline;
-	text-underline-position: auto;
-
+	display: inline;
 }
 
 .align-right {
@@ -1801,6 +1799,7 @@ header.major {
 	width: -ms-max-content;
 	width: max-content;
 	margin-bottom: 2em;
+	display: inline;
 }
 
 header.major> :first-child {
@@ -3827,18 +3826,10 @@ body.is-preload #banner>.inner {
 
 /* Add some shadows to create a card effect */
 
-.card-2 {
-	background-color: #ffffff67;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
-		border-radius: 15%;
-		width: 90%;
-		height: auto;
-		padding: 2%;
-		margin: auto;
-}
+
 
 .card-3 {
-	background-color: #ffffff67;
+	background-color: #e0dede8a;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
 	border-radius: 15%;
 	width: 90%;
