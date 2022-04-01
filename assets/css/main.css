@@ -3832,10 +3832,10 @@ body.is-preload #banner>.inner {
 	background-color: #e0dede8a;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
 	border-radius: 15%;
-	width: 90%;
+	width: 95%;
 	height: auto;
 	padding: 2%;
-	margin: auto;
+	margin: 1%;
 	word-wrap: break-word;
 
 }
@@ -3894,9 +3894,10 @@ body.is-preload #banner>.inner {
 }
 
 .column-3 {
-	float: left;
 	width: 33.3%;
-	margin-bottom: 1%;
+	padding: 0%;
+	margin: auto;
+
 
 }
 
@@ -3904,13 +3905,14 @@ body.is-preload #banner>.inner {
 	float: left;
 	width: 50%;
 	margin-bottom: 1%;
-
+	padding: .5%;
 }
 
 .column-4 {
 	float: left;
 	width: 25%;
 	margin-bottom: 1%;
+	padding: 0%;
 
 }
 
@@ -3928,7 +3930,7 @@ and (max-device-width : 480px) {
 		float: left;
 		width: 100%;
 		margin-bottom: 1%;
-
+		align-items: center;
 	}
 
 	.card-3 {
