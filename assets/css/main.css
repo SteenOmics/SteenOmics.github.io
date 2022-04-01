@@ -2185,27 +2185,27 @@ a.icon.alt:active:before {
 
 
 /* Openings */
-details{
+details {
 	width: inherit;
-	
+
 }
 
-details > .summary {
+details>.summary {
 
 	width: inherit;
 }
 
-details > .p {
-width: inherit;
+details>.p {
+	width: inherit;
 
 }
 
 /* Image */
-.video{
-		border: 0;
-		display: inline-block;
-		position: relative;
-	width:auto;
+.video {
+	border: 0;
+	display: inline-block;
+	position: relative;
+	width: auto;
 }
 
 .image {
@@ -2962,6 +2962,7 @@ button:disabled,
 	padding-left: 3.25em;
 	position: relative;
 }
+
 .contact-method .icon {
 	left: 0;
 	position: absolute;
@@ -3795,15 +3796,17 @@ body.is-preload #banner>.inner {
 	}
 
 }
+
 /* Publications */
-.container-mag{
+.container-mag {
 	padding: 0;
 	height: fit-content;
 	width: fit-content;
 	margin: 0%;
 	align-content: center;
 }
-.mag{
+
+.mag {
 	height: 85%;
 	width: 95%;
 	border-radius: 5%;
@@ -3811,14 +3814,15 @@ body.is-preload #banner>.inner {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
 
 }
+
 .shelf {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-		width: 100%;
-		margin-bottom: 0;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
-		padding: 1%;
+	width: 100%;
+	margin-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
+	padding: 1%;
 }
 
 /* Teams */
@@ -3835,7 +3839,21 @@ body.is-preload #banner>.inner {
 	width: 95%;
 	height: auto;
 	padding: 2%;
-	margin: 1%;
+	margin-left: auto;
+	margin-bottom: 2%;
+	word-wrap: break-word;
+
+}
+
+.card-4 {
+	background-color: #e0dede8a;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
+	border-radius: 15%;
+	width: 95%;
+	height: auto;
+	padding: 2%;
+	margin-left: auto;
+	margin-bottom: 2%;
 	word-wrap: break-word;
 
 }
@@ -3865,7 +3883,7 @@ body.is-preload #banner>.inner {
 	background-color: #ccc;
 }
 
-.team_title{
+.team_title {
 	margin: 0;
 	padding: 0%;
 	padding-bottom: 1%;
@@ -3902,36 +3920,30 @@ body.is-preload #banner>.inner {
 }
 
 .column-2 {
-	float: left;
-	width: 50%;
-	margin-bottom: 1%;
-	padding: .5%;
+	width: 33.3%;
+	padding: 0%;
+	margin: auto;
+
 }
 
 .column-4 {
-	float: left;
 	width: 25%;
-	margin-bottom: 1%;
 	padding: 0%;
+	margin: auto;
+
 
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-	
-	.column-2 {
-		float: left;
-		width: 100%;
-		margin-bottom: 1%;
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-	}
+
 	.column-3 {
-		float: left;
 		width: 100%;
-		margin-bottom: 1%;
-		align-items: center;
+		padding: 0%;
+		display: flex;
+		justify-content: center;
 	}
+
 
 	.card-3 {
 		background-color: #ffffff67;
@@ -3940,14 +3952,27 @@ and (max-device-width : 480px) {
 		width: 90%;
 		height: auto;
 		padding: 2%;
-		margin: auto;
-
+		margin-left: auto;
+		margin-right: 2.5%;
+		margin-bottom: 2%;
 	}
+
+	.card-4 {
+		background-color: #ffffff67;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.719);
+		border-radius: 15%;
+		width: 90%;
+		height: auto;
+		padding: 2%;
+		margin-left: auto;
+		margin-bottom: 2%;
+	}
+
 	.column-4 {
 		float: left;
 		width: 50%;
 		margin-bottom: 1%;
-	
+
 	}
 }
 
@@ -3974,31 +3999,31 @@ and (max-device-width : 480px) {
 
 /* Set the size of the div element that contains the map */
 
-	.map-responsive{
+.map-responsive {
 
-		overflow:hidden;
-	
-		padding-bottom:100%;
-	
-		position:relative;
-	
-		height:0;
-	
-	}
-	
-	.map-responsive iframe{
-	
-		left:0;
-	
-		top:0;
-	
-		height:100%;
-	
-		width:100%;
-	
-		position:absolute;
-	
-	}
+	overflow: hidden;
+
+	padding-bottom: 100%;
+
+	position: relative;
+
+	height: 0;
+
+}
+
+.map-responsive iframe {
+
+	left: 0;
+
+	top: 0;
+
+	height: 100%;
+
+	width: 100%;
+
+	position: absolute;
+
+}
 
 
 /* Wrapper */
